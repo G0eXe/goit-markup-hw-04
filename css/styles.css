@@ -589,10 +589,44 @@ img {
   background-color: #ffffff;
 }
 
-/* .clients-list-icon {
+.clients-list-link:hover,
+.clients-list-link:focus {
+  border-color: #2196f3;
+}
+
+.clients-list-icon {
+  width: 45px;
+  height: 50px;
+
   width: 40px;
   height: 52px;
-} */
+
+  width: 41px;
+  height: 43px;
+
+  width: 80px;
+  height: 42px;
+
+  width: 59px;
+  height: 47px;
+
+  width: 88px;
+  height: 45px;
+
+  color: rgba(175, 177, 184, 1);
+  fill: currentColor;
+}
+
+.clients-list-icon:hover,
+.clients-list-icon:focus {
+  color: #2196f3;
+  fill: currentColor;
+}
+
+.clients-list-link:hover .clients-list-icon,
+.clients-list-link:focus .clients-list-icon {
+  fill: #2196f3;
+}
 
 /* ============= END CLIENTS =============== */
 
