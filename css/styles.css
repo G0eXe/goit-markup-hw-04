@@ -45,7 +45,6 @@ img {
 
 .header .container {
   width: 1200px;
-  /* height: 80px; */
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -143,8 +142,8 @@ img {
 /* ============== HERO ================= */
 
 .hero {
-  /* max-width: 1600px;
-  margin: 0 auto; */
+  max-width: 1600px;
+  margin: 0 auto;
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: rgba(196, 196, 196, 1);
@@ -159,7 +158,6 @@ img {
 
 .hero .container {
   width: 1200px;
-  /* height: 600px; */
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -763,7 +761,6 @@ img {
 
 .footer .container {
   width: 1200px;
-  /* height: 250px; */
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
