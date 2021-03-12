@@ -1,3 +1,11 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 :root {
   --main-font: "Roboto", sans-serif;
   --second-font: "Raleway", sans-serif;
@@ -244,7 +252,7 @@ img {
   align-items: center;
   justify-content: center;
   width: 270px;
-  height: 120px;
+  height: 100%;
   background-color: #f5f4fa;
   margin-bottom: 30px;
 }
