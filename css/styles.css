@@ -826,6 +826,18 @@ img {
   margin-bottom: 9px;
 }
 
+.footer-wrapper {
+  display: inline-block;
+}
+
+.footer-wrapper:not(:last-child) {
+  margin-right: 70px;
+}
+
+.footer-social-list-item:not(:last-child) {
+  margin-right: 10px;
+}
+
 .footer-social-title {
   font-family: var(--main-font);
   font-weight: bold;
