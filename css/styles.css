@@ -587,6 +587,10 @@ img {
   margin-top: 30px;
 }
 
+.clients-list-item {
+  display: flex;
+}
+
 .clients-list-link {
   display: flex;
   width: 170px;
@@ -594,10 +598,6 @@ img {
   border: 1px solid rgba(175, 177, 184, 1);
   border-radius: 4px 4px 4px 4px;
   background-color: #ffffff;
-}
-
-.clients-list-icon {
-  display: flex;
 }
 
 .clients-list-link:hover,
