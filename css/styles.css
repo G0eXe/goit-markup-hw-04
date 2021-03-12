@@ -767,6 +767,9 @@ img {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
+
+  display: flex;
+  align-items: baseline;
 }
 
 .logo-text-footer {
@@ -827,7 +830,7 @@ img {
 }
 
 .footer-wrapper {
-  display: inline-block;
+  display: block;
 }
 
 .footer-wrapper:not(:last-child) {
@@ -842,6 +845,7 @@ img {
   font-family: var(--main-font);
   font-weight: bold;
   color: #ffffff;
+  text-transform: uppercase;
   margin-bottom: 20px;
 }
 
