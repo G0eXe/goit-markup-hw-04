@@ -143,6 +143,8 @@ img {
 /* ============== HERO ================= */
 
 .hero {
+  /* max-width: 1600px;
+  margin: 0 auto; */
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: rgba(196, 196, 196, 1);
@@ -822,6 +824,43 @@ img {
 
 .footer-mail {
   margin-bottom: 9px;
+}
+
+.footer-social-title {
+  font-family: var(--main-font);
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.footer-social-list {
+  display: flex;
+  align-items: center;
+}
+
+.footer-social-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-social-list-link:hover,
+.footer-social-list-link:focus {
+  background-color: #2196f3;
+}
+
+.footer-social-list-link:hover .footer-social-list-icon,
+.footer-social-list-link:focus .footer-social-list-icon {
+  fill: #ffffff;
+}
+
+.footer-social-list-icon {
+  color: #ffffff;
+  fill: currentColor;
 }
 
 /* ============= END FOOTER =============== */
