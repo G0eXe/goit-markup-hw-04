@@ -218,7 +218,6 @@ img {
 
 .features .container {
   width: 1200px;
-  /* height: 100px; */
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -226,10 +225,28 @@ img {
 
 .features-list {
   display: flex;
-  align-items: center;
-
+  justify-content: center;
   margin-left: -30px;
   margin-top: -30px;
+}
+
+.features-item {
+  display: block;
+  width: 270px;
+  height: 101px;
+  flex-basis: calc(100% / 4 - 30px);
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.features-icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  margin-bottom: 30px;
 }
 
 .features-item-title {
@@ -253,14 +270,6 @@ img {
   letter-spacing: 0.03em;
 
   color: #757575;
-}
-
-.features-item {
-  width: 270px;
-  height: 101px;
-  flex-basis: calc(100% / 4 - 30px);
-  margin-left: 30px;
-  margin-top: 30px;
 }
 
 /* ============= END FEATURES ============== */
@@ -555,7 +564,6 @@ img {
 
 .clients .container {
   width: 1200px;
-  /* height: 182px; */
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -595,9 +603,6 @@ img {
 }
 
 .clients-list-link {
-  /* display: flex; */
-  /* width: 170px;
-  height: 90px; */
   display: inline-flex;
   justify-content: center;
   align-items: center;
