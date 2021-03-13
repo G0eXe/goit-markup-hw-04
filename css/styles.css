@@ -231,9 +231,9 @@ img {
 }
 
 .features-item {
-  display: block;
+  /* display: block;
   width: 270px;
-  height: 101px;
+  height: 101px; */
   flex-basis: calc(100% / 4 - 30px);
   margin-left: 30px;
   margin-top: 30px;
@@ -243,7 +243,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 270px;
+  /* width: 270px; */
   height: 100%;
   background-color: #f5f4fa;
   margin-bottom: 30px;
@@ -511,7 +511,7 @@ img {
 
 .team-item-content-wrapper {
   padding-top: 30px;
-  padding-bottom: 30px;
+  /* padding-bottom: 30px; */
 }
 
 .social-list {
