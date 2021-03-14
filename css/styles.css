@@ -107,13 +107,13 @@ img {
   margin-left: auto;
 }
 
-.header-mail-icon {
+.contact-icon {
   color: #757575;
   fill: currentColor;
   margin-right: 10px;
 }
 
-.header-mail-link {
+.contact-link {
   display: flex;
   align-items: center;
   font-family: var(--main-font);
@@ -122,24 +122,8 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
-  margin-right: 30px;
 }
 
-.header-phone-icon {
-  color: #757575;
-  fill: currentColor;
-  margin-right: 10px;
-}
-
-.header-phone-link {
-  display: flex;
-  font-family: var(--main-font);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: #757575;
-}
 
 /* ============== END HEADER ============== */
 
